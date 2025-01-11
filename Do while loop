@@ -1,0 +1,12 @@
+public class DoWhileExample {
+    public static void main(String[] args) {
+        int number = 1; // Initialize the starting number
+
+
+        // Do-while loop to print numbers
+        do {
+            System.out.println("Number: " + number); // Print the current number
+            number++; // Increment the number
+        } while (number <= 10); // Loop until number is greater than 10
+    }
+}
